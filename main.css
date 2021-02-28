@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.site {
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.quote {
+  font-size: 2rem;
+  font-family: sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.author {
+  font-style: italic;
+  font-size: 1.5rem;
+}

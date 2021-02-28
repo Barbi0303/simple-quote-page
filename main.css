@@ -11,7 +11,7 @@ body {
 
 .site {
   text-align: center;
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
 
 .quote {
@@ -24,4 +24,29 @@ body {
 .author {
   font-style: italic;
   font-size: 1.5rem;
+}
+
+li {
+  display: inline;
+  padding: 7rem;
+}
+
+/* még nem látogatott link */
+a:link {
+  color: #1E90FF;
+}
+
+/* már meglátogatott link */
+a:visited {
+  color: #00CED1;
+}
+
+/* kurzor alatti link */
+a:hover {
+  color: #191970;
+}
+
+/* kiválasztott link *
+a:active {
+  color: #00BFFF;
 }

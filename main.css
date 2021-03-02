@@ -50,6 +50,7 @@ table {
 	box-sizing: border-box;
 }
 
+/* 280*653-Galaxy Fold */
 html, body {
   margin: 0;
   padding: 0;
@@ -66,13 +67,13 @@ body {
 
 .site {
   text-align: center;
-  padding-top: 6rem;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
+  padding-top: 5rem;
 }
 
 .quote {
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: sans-serif;
   width: 90%;
   margin: 0 auto;
@@ -80,16 +81,16 @@ body {
 
 .author {
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   width: 90%;
   margin: 0 auto;
 }
 
 li {
   display: inline;
-  padding: 7rem;
-  width: 90%;
-  margin: 0 auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 70%;
 }
 
 /* még nem látogatott link */
@@ -107,16 +108,93 @@ a:hover {
   color: #191970;
 }
 
-/* kiválasztott link *
+/* kiválasztott link */
 a:active {
   color: #00BFFF;
 }
 
-@media (max-width: 420px) {
-
+@media (max-width: 576px) {
+  
   .site {
-    font-size: 20%;
-    background-color: blue;
+    padding-top: 25%;
   }
-
+  
+  .quote {
+    font-size: 100%;
+  }
+  
+  .author {
+    font-size: 75%;
+  }
+  
+  li {
+    font-size: 70%;
+    padding: 3%;
+  }
 }
+
+@media (min-width: 800px) {
+  
+  .site {
+    padding-top: 7.5rem;
+  }
+  
+  .quote {
+    font-size: 180%;
+  }
+  
+  .author {
+    font-size: 120%;
+  }
+  
+  li {
+    padding: 6.5%;
+    font-size: 120%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
